@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  text-align: center;
+}
+
+.App{
+  gap: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right top, #0877bc, #2287c6, #3697d0, #4ba7d9, #5fb7e2, #7bc1e9, #94cbf0, #aad6f7, #c7defa, #dfe8fc, #f1f3fd, #ffffff);
+}
+
+@media screen and (max-width: 640px){
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+}
