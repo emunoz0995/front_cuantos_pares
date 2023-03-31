@@ -23,7 +23,7 @@ const DataEntry = ({ getTests }) => {
     }
 
     const submit = (data) => {
-        axios.post('http://localhost:8000/api/visitors', data)
+        axios.post('https://api-cuantos-pares-production.up.railway.app/api/visitors', data)
             .then(() => {
                 getTests(
                     Swal.fire({

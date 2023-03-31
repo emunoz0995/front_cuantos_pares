@@ -14,7 +14,7 @@ function App() {
   }, [])
 
   const getTests = () => {
-    axios.get('http://localhost:8000/api/visitors')
+    axios.get('https://api-cuantos-pares-production.up.railway.app/api/visitors')
       .then(res => setTestList(res.data));
   }
 
