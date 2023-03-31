@@ -11,7 +11,7 @@ const Tests = ({ testList }) => {
             <div className='flex'>
                 <h2 className='text-4xl mb-10 text-sky-500'>Historial&nbsp;</h2><h2 className='text-4xl mb-10'> de test</h2>
             </div>
-            <div className='w-[55%]'>
+            <div className='w-[100%] sm:w-[100%] md:w-[55%] lg:[55%]'>
                 <ul className='w-[100%]  h-[200px] overflow-y-scroll'>
                     {testList.map(test => (
                         // <li className='flex w-[95%] justify-between rounded shadow-md bg-white mb-5 p-2' key={test.id}></li>
